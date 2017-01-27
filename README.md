@@ -54,4 +54,3 @@ You will be provided with visual assets and a game loop engine; using these tool
 ### License
 
 The project is licensed under the [MIT license](license.txt).
-# Classic-Arcade-Game-Clone-Project
