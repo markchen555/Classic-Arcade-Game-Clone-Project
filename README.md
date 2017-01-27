@@ -15,7 +15,7 @@ Fork a copy from my github or download the repository on your computer, unzip it
 ### How to Play 
 
 Arrow Keys :
-<img src="images/arrows.jpg" width="120"><br>
+<br><img src="images/arrows.jpg" width="120"><br>
 Use the arrow keys from your keyboard to move your player up, right, down and left.
 
 Goal: Try to move the main character to the water side without getting hit by the bugs. Once you reach the water side you will increase one level to your current level. Try to get as many levels as you can and compare with you friends.  
