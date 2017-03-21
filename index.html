@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Effective JavaScript: Frogger</title>
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100, 300" rel="stylesheet">
 </head>
 <body>
 	<div id="main" class="container">
@@ -12,9 +12,25 @@
 		<div class "col-3">Highest Level: <span id="highest">0</span></div>
 	</div>
 	<hr class="col-mid-12">
+    <div id="modal">
+            <div class="modalconent">
+                <h2>About The Project</h2>
+                <br>
+                <p>This project is a object oriented JavaScrpt powered HTML5 canvas classic frog game clone. With the engined provided, I developed a simple game where you move the person using arrow key from one side to ther other and reach to the highest point as possible.</p>
+                <br>
+                <button id="exit">Close</button>
+            </div>
+        </div>
     <script src="js/resources.js"></script>
     <script src="js/app.js"></script>
     <script src="js/engine.js"></script>
+    <script>
+        window.onload = function () {
+            document.getElementById('exit').onclick = function () {
+                document.getElementById('modal').style.display = "none"
+            };
+        };
+    </script>
 
 </body>
 </html>
